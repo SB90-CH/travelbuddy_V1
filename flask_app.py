@@ -43,12 +43,12 @@ Say hi to Anna, ask her how she is doing and if she has specific questions about
 
 bot = Chatbot(
     database_file="database/chatbot.db", 
-    type_id="tb",
+    type_id="app",
     user_id="anna",
     type_name="TravelBuddy Chat",
     type_role=my_type_role,
     instance_context=my_instance_context,
-    instance_starter=my_instance_starter
+    instance_starter=my_instance_starter    
 )
 
 bot.start()
