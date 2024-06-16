@@ -126,7 +126,7 @@ function get_assistant_message(content) {
 }
 
 function get_assistant_istyping_message() {
-    return $("<div>").addClass("temporary d-flex flex-row justify-content-start mb-4").append($("<i>").addClass("bi bi-record-circle").attr("style", "font-size: 2rem; color: #02beff"), $("<div>").addClass("p-3 ms-3 border border-secondary").attr("style", "border-radius: 6px; border-color: #02beff !important; background-color: #e3f8ff;").append($("<p>").addClass("small mb-0 textbubble").append($("<i>").addClass("bi bi-chat aaa").attr("id", "istyping_icon"))));
+    return $("<div>").addClass("temporary d-flex flex-row justify-content-start mb-4").append($("<i>").addClass("bi bi-record-circle").attr("style", "font-size: 2rem; color: #02beff"), $("<div>").addClass("p-3 ms-3 border border-secondary").attr("style", "border-radius: 6px; border-color: #02beff !important; background-color: #e3f8ff;").append($("<p>").addClass("small mb-0 textbubble").append($("<i>").addClass("bi bi-chat-dots aaa").attr("id", "istyping_icon"))));
 }
 
 function animate_istyping() {
