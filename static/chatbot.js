@@ -139,7 +139,7 @@ function animate_istyping() {
 }
 
 function get_user_message(content) {
-    return $("<div>").addClass("d-flex flex-row justify-content-end mb-4").append($("<div>").addClass("p-3 me-3 border border-secondary").attr("style", "border-radius: 6px;").append($("<p>").addClass("small mb-0").text(content)), $("<i>").addClass("bi bi-person-bounding-box").attr("style", "font-size: 2rem;"));
+    return $("<div>").addClass("d-flex flex-row justify-content-end mb-4").append($("<div>").addClass("p-3 me-3 border border-secondary").attr("style", "border-radius: 6px;").append($("<p>").addClass("small mb-0").text(content)), $("<i>").addClass("bi bi-person-fill").attr("style", "font-size: 2rem;"));
 }
 
 function user_says() {
